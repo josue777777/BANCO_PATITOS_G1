@@ -1,0 +1,6 @@
+@G1PROYECTOAPIC__HostAddress = http://localhost:5146
+
+GET {{G1PROYECTOAPIC__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
