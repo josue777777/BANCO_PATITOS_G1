@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
-//Establecer mi conexion de mysql
+//Establecer mi conexion de mysql.
 builder.Services.AddDbContext<AppDbContext>(
 
     options =>
